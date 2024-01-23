@@ -32,8 +32,8 @@ int main()
 void gotCM(int a){
     int mm = a *10;
     float km = a / 100000;
-    printf("\n%dcm son: %dmm\n", a, mm);
-    printf("\n%dcm son: %fkm", a, km);
+    printf("%d %f %d %f", "El valor que puso: "a, "a mm es: "mm);
+    printf("%d %f", a, km);
     
 }
 void gotMm(int a){
