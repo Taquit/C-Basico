@@ -1,0 +1,22 @@
+# Ignorar archivos temporales
+*~
+
+# Ignorar archivos de respaldo de Emacs
+\#*\#
+
+# Ignorar archivos de compilación
+*.o
+*.out
+*.log
+.exe
+
+# Ignorar el directorio "node_modules" en proyectos Node.js
+node_modules/
+
+# Ignorar archivos de configuración local (por ejemplo, para Visual Studio Code)
+.vscode/
+# Ignorar el archivo P2.rap.backup0
+P2.rap.backup0
+P2.rap.backup1
+P2.rap.backup2
+P2.rap.backup3
