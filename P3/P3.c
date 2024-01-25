@@ -20,8 +20,8 @@ void main()
     triangulo = (trianguloA*trianguloL)/2;
     rectangulo = rectanguloA * rectanguloB;
 
-    printf("\nEl area del cuadrado es: %f unidades cubicas ", cuadrado);
-    printf("\nEl area del rectangulo es: %f unidades cubicas ", rectangulo);
-    printf("\nEl area del triangulo es: %f unidades cubicas", triangulo);
+    printf("\nEl area del cuadrado es: %.3f unidades cubicas ", cuadrado);
+    printf("\nEl area del rectangulo es: %.3f unidades cubicas ", rectangulo);
+    printf("\nEl area del triangulo es: %.3f unidades cubicas\n", triangulo);
     system("PAUSE");
 }
