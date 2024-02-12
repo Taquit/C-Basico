@@ -1,0 +1,3 @@
+C:/Users/Ruben/Documents/C-Basico/P12/cmake-build-debug/CMakeFiles/P12.dir
+C:/Users/Ruben/Documents/C-Basico/P12/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Ruben/Documents/C-Basico/P12/cmake-build-debug/CMakeFiles/rebuild_cache.dir
