@@ -10,8 +10,9 @@
 *.log
 *.exe
 
-# Ignorar el directorio "node_modules" en proyectos Node.js
+# Ignorar el directorio "node_modules" "cmake-build-debug"
 node_modules/
+cmake-build-debug/
 
 # Ignorar archivos de configuración local (por ejemplo, para Visual Studio Code)
 .vscode/
