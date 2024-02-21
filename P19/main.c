@@ -3,12 +3,14 @@
 #include <process.h>
 
 void main() {
-    float numBoleto,res;
-    printf("bla bal introduce:");
-    scanf("%f",&numBoleto);
+    int numBoleto;
+    printf("Introduce los ultimos dos digitos del boleto:");
+    scanf("%d",&numBoleto);
 
-    if(numBoleto%5==1){
-
+    if(numBoleto%5==0){
+        printf("\nEs multiplo de 5\n");
+    } else{
+        printf("\nNo es multiplo de 5\n");
     }
     system("PAUSE");
 }
