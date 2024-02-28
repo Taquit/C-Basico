@@ -11,7 +11,7 @@ int main() {
     printf("Introduce el tuyo:");
     scanf("%i",&num3);
     aux++;
-    if(num1==aux){
+    if((num2>num)&&(num3>num2)){
         printf("correcto");
     } else{
         printf("Error");
