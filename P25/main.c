@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <process.h>
 
-int main() {
-    int num1, num2,num3,aux;
+void main() {
+    int num1, num2,num3,aux,aux2;
 
     printf("Se van a introducir 3 numeros.\n"
            "Introduce el tuyo:");
@@ -10,12 +11,13 @@ int main() {
     scanf("%i",&num2);
     printf("Introduce el tuyo:");
     scanf("%i",&num3);
-    aux++;
-    if((num2>num)&&(num3>num2)){
-        printf("correcto");
+    aux=num2-1;
+    aux2=num2+1;
+    if((aux==num1)&&(aux2==num3)){
+        printf("Se introdujeron de forma correcta\n");
     } else{
-        printf("Error");
+        printf("Error. Introducidos de forma incorrecta\n");
     }
 
-    return 0;
+    system("PAUSE");
 }
