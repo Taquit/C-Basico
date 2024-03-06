@@ -2,12 +2,15 @@
 
 void main() {
     int opt;
-    float x,y,suma,resta,division,mul,division;
+    float x,y,suma,resta,division,mul;
     printf("Las opciones son\n1-Suma\n2-Resta\n3-Multiplicacio\n4-Division");
-    printf("Introduzca el valor de x:");
-    printf("Introduzca el valor de y:");
+    printf("\nIntroduzca el valor de x:");
     scanf("%f",&x);
+    printf("Introduzca el valor de y:");
     scanf("%f",&y);
+    printf("Introduce la operacion que quieras realizar:");
+    scanf("%i",&opt);
+
 
     switch (opt) {
         case 1:
@@ -23,7 +26,7 @@ void main() {
             printf("La multiplicacion de %.2f y %.2f es %.2f",x,y,mul);
             break;
         case 4:
-            suma = x/y;
+            division = x/y;
             printf("La division de %.2f y %.2f es %.2f",x,y,division);
             break;
         default:

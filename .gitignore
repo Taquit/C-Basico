@@ -22,5 +22,3 @@ cmake-build-debug/
 *.rap.backup2
 *.rap.backup3
 
-#Ignora configuracio Clion
-CMakeLists.txt
