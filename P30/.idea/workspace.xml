@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -21,13 +21,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07c9d996-1cf7-45b9-8003-a8500db5c743" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../P29/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../P29/.idea/P29.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../P29/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../P29/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../P29/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../P28/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../P28/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +40,9 @@
     <option name="majorVersion" value="2023" />
     <option name="minorVersion" value="3.3" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2dKLZvE82bD7Q81ViYQhl1ENvo9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -63,6 +57,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Desktop/Documents/UPAEP/Software/CPU/Practicas/Comp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,11 +67,6 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="P30" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="P30" TARGET_NAME="P30" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="P30" RUN_TARGET_NAME="P30">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -92,6 +82,8 @@
       <option name="presentableId" value="Default" />
       <updated>1709751881714</updated>
       <workItem from="1709751882936" duration="741000" />
+      <workItem from="1710301332439" duration="586000" />
+      <workItem from="1710449137368" duration="75000" />
     </task>
     <servers />
   </component>
