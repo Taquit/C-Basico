@@ -22,8 +22,6 @@
   <component name="ChangeListManager">
     <list default="true" id="07c9d996-1cf7-45b9-8003-a8500db5c743" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PowerPoitnProgram/PIF 28- 30.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../PowerPoitnProgram/PIF 28- 30.pptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Ruben/Documents/C-Basico/P30",
+    "last_opened_file_path": "C:/Users/Ruben/Documents/CPU/Ejercicios/Practicas",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,11 +69,6 @@
 }]]></component>
   <component name="RunManager">
     <configuration name="P30" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="P30" TARGET_NAME="P30" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="P30" RUN_TARGET_NAME="P30">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -91,6 +84,7 @@
       <updated>1709751881714</updated>
       <workItem from="1709751882936" duration="741000" />
       <workItem from="1709954043762" duration="6102000" />
+      <workItem from="1710440044719" duration="101000" />
     </task>
     <servers />
   </component>
