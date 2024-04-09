@@ -22,6 +22,14 @@
   <component name="ChangeListManager">
     <list default="true" id="07c9d996-1cf7-45b9-8003-a8500db5c743" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PowerPoitnProgram/PIF 28- 30.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../PowerPoitnProgram/PIF 28- 30.pptx" afterDir="false" />
+>>>>>>> 656480d3e42980c38c6f612e123d8bb872095e9d
+>>>>>>> 0c6b912702115e4fe3e7ad752d40642f2842f85f
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +66,15 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
+<<<<<<< HEAD
     "last_opened_file_path": "C:/Users/Ruben/Documents/CPU/Ejercicios/Practicas",
+=======
+<<<<<<< HEAD
+    "last_opened_file_path": "C:/Users/Desktop/Documents/UPAEP/Software/CPU/Practicas/Comp",
+=======
+    "last_opened_file_path": "C:/Users/Ruben/Documents/C-Basico/P30",
+>>>>>>> 656480d3e42980c38c6f612e123d8bb872095e9d
+>>>>>>> 0c6b912702115e4fe3e7ad752d40642f2842f85f
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,10 +85,21 @@
 }]]></component>
   <component name="RunManager">
     <configuration name="P30" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="P30" TARGET_NAME="P30" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="P30" RUN_TARGET_NAME="P30">
+<<<<<<< HEAD
+=======
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+=======
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+>>>>>>> 656480d3e42980c38c6f612e123d8bb872095e9d
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+>>>>>>> 0c6b912702115e4fe3e7ad752d40642f2842f85f
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,8 +110,16 @@
       <option name="presentableId" value="Default" />
       <updated>1709751881714</updated>
       <workItem from="1709751882936" duration="741000" />
+<<<<<<< HEAD
+      <workItem from="1710301332439" duration="586000" />
+      <workItem from="1710449137368" duration="75000" />
+=======
       <workItem from="1709954043762" duration="6102000" />
+<<<<<<< HEAD
       <workItem from="1710440044719" duration="101000" />
+=======
+>>>>>>> 656480d3e42980c38c6f612e123d8bb872095e9d
+>>>>>>> 0c6b912702115e4fe3e7ad752d40642f2842f85f
     </task>
     <servers />
   </component>

@@ -1,0 +1,3 @@
+C:/Users/Desktop/Documents/C-Basico/P29/cmake-build-debug/CMakeFiles/P29.dir
+C:/Users/Desktop/Documents/C-Basico/P29/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Desktop/Documents/C-Basico/P29/cmake-build-debug/CMakeFiles/rebuild_cache.dir

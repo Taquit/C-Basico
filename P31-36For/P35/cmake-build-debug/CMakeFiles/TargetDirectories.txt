@@ -1,0 +1,3 @@
+C:/Users/Desktop/Documents/C-Basico/P31-36/P35/cmake-build-debug/CMakeFiles/P35.dir
+C:/Users/Desktop/Documents/C-Basico/P31-36/P35/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Desktop/Documents/C-Basico/P31-36/P35/cmake-build-debug/CMakeFiles/rebuild_cache.dir
