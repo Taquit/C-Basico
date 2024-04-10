@@ -1,0 +1,3 @@
+C:/Users/Desktop/Documents/UPAEP/Software/C-Basico/First/cmake-build-debug/CMakeFiles/First.dir
+C:/Users/Desktop/Documents/UPAEP/Software/C-Basico/First/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Desktop/Documents/UPAEP/Software/C-Basico/First/cmake-build-debug/CMakeFiles/rebuild_cache.dir

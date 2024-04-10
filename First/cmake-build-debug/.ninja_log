@@ -1,0 +1,13 @@
+# ninja log v5
+0	307	7340482343642964	CMakeFiles/First.dir/Programa-1.2.c.obj	566da863f22ec159
+4	311	7340482343688128	CMakeFiles/First.dir/Programa-1.3.c.obj	1273189bc688abee
+8	322	7340482343823846	CMakeFiles/First.dir/Programa-1.c.obj	9d3f3627245fc5c8
+6	54	7340482814608612	CMakeFiles/First.dir/Programa-1.c.obj	9d3f3627245fc5c8
+1	54	7340482814608612	CMakeFiles/First.dir/Programa-1.2.c.obj	566da863f22ec159
+54	121	7340482815295936	First.exe	baede11277566270
+2	58	7340483219795082	CMakeFiles/First.dir/Programa-1.3.c.obj	1273189bc688abee
+58	156	7340483220730740	First.exe	baede11277566270
+1	51	7340483598321653	CMakeFiles/First.dir/Programa-1.3.c.obj	1273189bc688abee
+52	122	7340483598976351	First.exe	baede11277566270
+1	55	7340486675179532	CMakeFiles/First.dir/Programa-1.3.c.obj	1273189bc688abee
+55	127	7340486675851461	First.exe	baede11277566270

@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Ruben/Documents/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug"
+			"value" : "c:/Users/Desktop/Documents/UPAEP/Software/C-Basico/First/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -431,7 +431,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Ruben/Documents/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Desktop/Documents/UPAEP/Software/C-Basico/First/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -503,7 +503,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Ruben/Documents/C-Basico/Proyecto-Almacen/Proyecto-Individual"
+			"value" : "C:/Users/Desktop/Documents/UPAEP/Software/C-Basico/First"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/Proyecto_Individual"
+			"value" : "C:/Program Files (x86)/First"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -731,7 +731,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Proyecto_Individual"
+			"value" : "First"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1126,7 +1126,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Proyecto_Individual_BINARY_DIR",
+			"name" : "First_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1135,10 +1135,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Ruben/Documents/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug"
+			"value" : "C:/Users/Desktop/Documents/UPAEP/Software/C-Basico/First/cmake-build-debug"
 		},
 		{
-			"name" : "Proyecto_Individual_IS_TOP_LEVEL",
+			"name" : "First_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1150,7 +1150,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "Proyecto_Individual_SOURCE_DIR",
+			"name" : "First_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1159,7 +1159,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Ruben/Documents/C-Basico/Proyecto-Almacen/Proyecto-Individual"
+			"value" : "C:/Users/Desktop/Documents/UPAEP/Software/C-Basico/First"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

@@ -1,25 +1,27 @@
 #include <stdio.h>
 
-void operaciones(int a, int b);
+int main(){
 
-int main()
-{
-    
-    int num1, num2;
-    printf("\nIntroduce primer numero (entero): ");
-    scanf("%d", & num1);
-    printf("\nIntroduce segundo numero (entero): ");
-    scanf("%d", & num2);
+    int i;
+    float prom,finalprom;
+    float arr[5];
+    for(i=0;i<5;i++){
+        printf("Introduzca el numero %i \n",i+1);
+        scanf("%f", &arr[i]);
+    }
 
-    operaciones(num1, num2);
-    
+    for(i=0;i<5;i++){
+        printf("El numero en el lugar %i es %.2f\n ",i,arr[i]);
+    }
+
+    for(i=0;i<=5;i++){
+        prom= prom + arr[i];
+    }
+
+    finalprom = prom/5.0;
+
+    printf("%.2f",finalprom);
+
+
     return 0;
-}
-
-void operaciones(int a, int b){
-
-    printf("\nLa suma de %d + %d es: %d\n", a ,b , a + b);
-    printf("La resta %d - %d es: %d\n", a , b, a - b);
-    printf("La multiplicacion %d * %d es: %d\n", a , b, a * b);
-   
 }
