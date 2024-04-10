@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.27)
-project(Proyecto_Individual C)
+project(P30 C)
 
-set(CMAKE_C_STANDARD 17)
+set(CMAKE_C_STANDARD 11)
 
-add_executable(Proyecto_Individual main.c)
+add_executable(Proyecto-Individual main.c)
