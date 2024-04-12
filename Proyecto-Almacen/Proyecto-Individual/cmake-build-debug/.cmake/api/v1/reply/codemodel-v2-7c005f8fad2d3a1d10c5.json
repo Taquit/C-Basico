@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "P30",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Almacen-Marai-0.1.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Almacen-Marai-0.1.c-Debug-893befd101d4442c16ab.json",
+					"name" : "Almacen-Marai-0.1.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Almacen-Maria-0.2.1.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Almacen-Maria-0.2.1.c-Debug-6ae327e34d1ef23f2529.json",
+					"name" : "Almacen-Maria-0.2.1.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Almacen-Maria-0.2.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Almacen-Maria-0.2.c-Debug-7eb6895b570fa786651a.json",
+					"name" : "Almacen-Maria-0.2.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Proyecto-Individual::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Proyecto-Individual-Debug-c731e1b8e20c8e527aa2.json",
+					"name" : "Proyecto-Individual",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Desktop/Documents/UPAEP/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug",
+		"source" : "C:/Users/Desktop/Documents/UPAEP/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
