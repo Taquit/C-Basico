@@ -1,5 +1,5 @@
 //
-// Created by Desktop on 10/04/2024.
+// Version en la, donde solo solo se imprime el menu en el que se puede ingresar
 //
 #include <stdio.h>
 

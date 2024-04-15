@@ -1,0 +1,20 @@
+
+
+---->Regla de negocio<----
+-Cuando ingreses a "Altas" debe ver si el almacen esta lleno
+-Nunca se modifa el id
+--------------------
+Paginado
+3)Se debe buscar un producto por id, cuando el usuario ingresa el id y se debe de mostrar la informacion del producto
+    "Dame el id:"
+    "Debe de decir si el producto existe o no "
+    En caso de que existe "Imprime todo lo del producto"
+    Presione una tecla para continuar
+4)Remplazo (Necesita pasword)
+        "Pide el ID
+        Despues de actualizar cualquier dato
+        "Imprimir se actualizo x campo" y imprimir el producto de nuevo
+    El menu debe ser capas de cancelar el remplazo "5" "No se modifico ningun dato"
+    Maria hace un escrito donde menciona los productos perdidos
+    Esta opcion debe de modicar la existencia del producto, nombre, precio y punto de re-orden
+5)

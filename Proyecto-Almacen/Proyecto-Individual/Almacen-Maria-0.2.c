@@ -1,6 +1,7 @@
 //
-// Created by Desktop on 10/04/2024.
-//
+// Se guardan los datos en un arreglo
+//*Se crea la funcion altas
+//*
 #include <stdio.h>
 #include <string.h>
 

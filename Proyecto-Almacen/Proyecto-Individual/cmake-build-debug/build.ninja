@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/Ruben/Documents/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/Ruben/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Proyecto-Individual
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:/Users/Ruben/Documents/C-Basico/Proyecto-Almacen/Proyec
 
 build cmake_object_order_depends_target_Proyecto-Individual: phony || CMakeFiles/Proyecto-Individual.dir
 
-build CMakeFiles/Proyecto-Individual.dir/main.c.obj: C_COMPILER__Proyecto-Individual_unscanned_Debug C$:/Users/Ruben/Documents/C-Basico/Proyecto-Almacen/Proyecto-Individual/main.c || cmake_object_order_depends_target_Proyecto-Individual
+build CMakeFiles/Proyecto-Individual.dir/main.c.obj: C_COMPILER__Proyecto-Individual_unscanned_Debug C$:/Users/Ruben/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/main.c || cmake_object_order_depends_target_Proyecto-Individual
   DEP_FILE = CMakeFiles\Proyecto-Individual.dir\main.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Proyecto-Individual.dir
@@ -73,12 +73,144 @@ build Proyecto-Individual.exe: C_EXECUTABLE_LINKER__Proyecto-Individual_Debug CM
   TARGET_IMPLIB = libProyecto-Individual.dll.a
   TARGET_PDB = Proyecto-Individual.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Almacen-Marai-0.1.c
+
+
+#############################################
+# Order-only phony target for Almacen-Marai-0.1.c
+
+build cmake_object_order_depends_target_Almacen-Marai-0.1.c: phony || CMakeFiles/Almacen-Marai-0.1.c.dir
+
+build CMakeFiles/Almacen-Marai-0.1.c.dir/Almacen-Marai-0.1.c.obj: C_COMPILER__Almacen-Marai-0.2e1.2ec_unscanned_Debug C$:/Users/Ruben/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/Almacen-Marai-0.1.c || cmake_object_order_depends_target_Almacen-Marai-0.1.c
+  DEP_FILE = CMakeFiles\Almacen-Marai-0.1.c.dir\Almacen-Marai-0.1.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Almacen-Marai-0.1.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\Almacen-Marai-0.1.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Almacen-Marai-0.1.c
+
+
+#############################################
+# Link the executable Almacen-Marai-0.1.c.exe
+
+build Almacen-Marai-0.1.c.exe: C_EXECUTABLE_LINKER__Almacen-Marai-0.2e1.2ec_Debug CMakeFiles/Almacen-Marai-0.1.c.dir/Almacen-Marai-0.1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Almacen-Marai-0.1.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Almacen-Marai-0.1.c.exe
+  TARGET_IMPLIB = libAlmacen-Marai-0.1.c.dll.a
+  TARGET_PDB = Almacen-Marai-0.1.c.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Almacen-Maria-0.2.c
+
+
+#############################################
+# Order-only phony target for Almacen-Maria-0.2.c
+
+build cmake_object_order_depends_target_Almacen-Maria-0.2.c: phony || CMakeFiles/Almacen-Maria-0.2.c.dir
+
+build CMakeFiles/Almacen-Maria-0.2.c.dir/Almacen-Maria-0.2.c.obj: C_COMPILER__Almacen-Maria-0.2e2.2ec_unscanned_Debug C$:/Users/Ruben/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/Almacen-Maria-0.2.c || cmake_object_order_depends_target_Almacen-Maria-0.2.c
+  DEP_FILE = CMakeFiles\Almacen-Maria-0.2.c.dir\Almacen-Maria-0.2.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Almacen-Maria-0.2.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\Almacen-Maria-0.2.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Almacen-Maria-0.2.c
+
+
+#############################################
+# Link the executable Almacen-Maria-0.2.c.exe
+
+build Almacen-Maria-0.2.c.exe: C_EXECUTABLE_LINKER__Almacen-Maria-0.2e2.2ec_Debug CMakeFiles/Almacen-Maria-0.2.c.dir/Almacen-Maria-0.2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Almacen-Maria-0.2.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Almacen-Maria-0.2.c.exe
+  TARGET_IMPLIB = libAlmacen-Maria-0.2.c.dll.a
+  TARGET_PDB = Almacen-Maria-0.2.c.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Almacen-Maria-0.2.1.c
+
+
+#############################################
+# Order-only phony target for Almacen-Maria-0.2.1.c
+
+build cmake_object_order_depends_target_Almacen-Maria-0.2.1.c: phony || CMakeFiles/Almacen-Maria-0.2.1.c.dir
+
+build CMakeFiles/Almacen-Maria-0.2.1.c.dir/Almacen-Maria-0.2.1.c.obj: C_COMPILER__Almacen-Maria-0.2e2.2e1.2ec_unscanned_Debug C$:/Users/Ruben/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/Almacen-Maria-0.2.1.c || cmake_object_order_depends_target_Almacen-Maria-0.2.1.c
+  DEP_FILE = CMakeFiles\Almacen-Maria-0.2.1.c.dir\Almacen-Maria-0.2.1.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Almacen-Maria-0.2.1.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\Almacen-Maria-0.2.1.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Almacen-Maria-0.2.1.c
+
+
+#############################################
+# Link the executable Almacen-Maria-0.2.1.c.exe
+
+build Almacen-Maria-0.2.1.c.exe: C_EXECUTABLE_LINKER__Almacen-Maria-0.2e2.2e1.2ec_Debug CMakeFiles/Almacen-Maria-0.2.1.c.dir/Almacen-Maria-0.2.1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Almacen-Maria-0.2.1.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Almacen-Maria-0.2.1.c.exe
+  TARGET_IMPLIB = libAlmacen-Maria-0.2.1.c.dll.a
+  TARGET_PDB = Almacen-Maria-0.2.1.c.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Almacen-Maria-0.3.c
+
+
+#############################################
+# Order-only phony target for Almacen-Maria-0.3.c
+
+build cmake_object_order_depends_target_Almacen-Maria-0.3.c: phony || CMakeFiles/Almacen-Maria-0.3.c.dir
+
+build CMakeFiles/Almacen-Maria-0.3.c.dir/Almacen-Maria-0.3.c.obj: C_COMPILER__Almacen-Maria-0.2e3.2ec_unscanned_Debug C$:/Users/Ruben/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/Almacen-Maria-0.3.c || cmake_object_order_depends_target_Almacen-Maria-0.3.c
+  DEP_FILE = CMakeFiles\Almacen-Maria-0.3.c.dir\Almacen-Maria-0.3.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Almacen-Maria-0.3.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\Almacen-Maria-0.3.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Almacen-Maria-0.3.c
+
+
+#############################################
+# Link the executable Almacen-Maria-0.3.c.exe
+
+build Almacen-Maria-0.3.c.exe: C_EXECUTABLE_LINKER__Almacen-Maria-0.2e3.2ec_Debug CMakeFiles/Almacen-Maria-0.3.c.dir/Almacen-Maria-0.3.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Almacen-Maria-0.3.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Almacen-Maria-0.3.c.exe
+  TARGET_IMPLIB = libAlmacen-Maria-0.3.c.dll.a
+  TARGET_PDB = Almacen-Maria-0.3.c.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Ruben\Documents\C-Basico\Proyecto-Almacen\Proyecto-Individual\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\Ruben\Documents\Upaep\Software\C-Basico\Proyecto-Almacen\Proyecto-Individual\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -89,7 +221,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Ruben\Documents\C-Basico\Proyecto-Almacen\Proyecto-Individual\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Ruben\Documents\C-Basico\Proyecto-Almacen\Proyecto-Individual -BC:\Users\Ruben\Documents\C-Basico\Proyecto-Almacen\Proyecto-Individual\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Ruben\Documents\Upaep\Software\C-Basico\Proyecto-Almacen\Proyecto-Individual\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Ruben\Documents\Upaep\Software\C-Basico\Proyecto-Almacen\Proyecto-Individual -BC:\Users\Ruben\Documents\Upaep\Software\C-Basico\Proyecto-Almacen\Proyecto-Individual\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -99,6 +231,14 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Almacen-Marai-0.1.c: phony Almacen-Marai-0.1.c.exe
+
+build Almacen-Maria-0.2.1.c: phony Almacen-Maria-0.2.1.c.exe
+
+build Almacen-Maria-0.2.c: phony Almacen-Maria-0.2.c.exe
+
+build Almacen-Maria-0.3.c: phony Almacen-Maria-0.3.c.exe
+
 build Proyecto-Individual: phony Proyecto-Individual.exe
 
 # =============================================================================
@@ -107,9 +247,9 @@ build Proyecto-Individual: phony Proyecto-Individual.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Ruben/Documents/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug
+# Folder: C:/Users/Ruben/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug
 
-build all: phony Proyecto-Individual.exe
+build all: phony Proyecto-Individual.exe Almacen-Marai-0.1.c.exe Almacen-Maria-0.2.c.exe Almacen-Maria-0.2.1.c.exe Almacen-Maria-0.3.c.exe
 
 # =============================================================================
 # Built-in targets
@@ -118,14 +258,14 @@ build all: phony Proyecto-Individual.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Users/Ruben/Documents/C-Basico/Proyecto-Almacen/Proyecto-Individual/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Users/Ruben/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Users/Ruben/Documents/C-Basico/Proyecto-Almacen/Proyecto-Individual/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.3/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Users/Ruben/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
 
 
 #############################################

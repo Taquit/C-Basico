@@ -18,7 +18,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -36,7 +37,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -65,6 +67,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Almacen-Maria-0.3.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Almacen-Maria-0.3.c-Debug-4239e5b01e46a1a36150.json",
+					"name" : "Almacen-Maria-0.3.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Proyecto-Individual::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Proyecto-Individual-Debug-c731e1b8e20c8e527aa2.json",
 					"name" : "Proyecto-Individual",
@@ -76,8 +85,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Desktop/Documents/UPAEP/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug",
-		"source" : "C:/Users/Desktop/Documents/UPAEP/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual"
+		"build" : "C:/Users/Ruben/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug",
+		"source" : "C:/Users/Ruben/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual"
 	},
 	"version" : 
 	{
