@@ -167,6 +167,19 @@ Almacen-Maria-0.2.1.c/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Almacen-Maria-0.2.1.c.dir\build.make CMakeFiles/Almacen-Maria-0.2.1.c.dir/build
 .PHONY : Almacen-Maria-0.2.1.c/fast
 
+#=============================================================================
+# Target rules for targets named Almacen-Maria-0.3.c
+
+# Build rule for target.
+Almacen-Maria-0.3.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Almacen-Maria-0.3.c
+.PHONY : Almacen-Maria-0.3.c
+
+# fast build rule for target.
+Almacen-Maria-0.3.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Almacen-Maria-0.3.c.dir\build.make CMakeFiles/Almacen-Maria-0.3.c.dir/build
+.PHONY : Almacen-Maria-0.3.c/fast
+
 Almacen-Marai-0.1.obj: Almacen-Marai-0.1.c.obj
 .PHONY : Almacen-Marai-0.1.obj
 
@@ -239,6 +252,30 @@ Almacen-Maria-0.2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Almacen-Maria-0.2.c.dir\build.make CMakeFiles/Almacen-Maria-0.2.c.dir/Almacen-Maria-0.2.c.s
 .PHONY : Almacen-Maria-0.2.c.s
 
+Almacen-Maria-0.3.obj: Almacen-Maria-0.3.c.obj
+.PHONY : Almacen-Maria-0.3.obj
+
+# target to build an object file
+Almacen-Maria-0.3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Almacen-Maria-0.3.c.dir\build.make CMakeFiles/Almacen-Maria-0.3.c.dir/Almacen-Maria-0.3.c.obj
+.PHONY : Almacen-Maria-0.3.c.obj
+
+Almacen-Maria-0.3.i: Almacen-Maria-0.3.c.i
+.PHONY : Almacen-Maria-0.3.i
+
+# target to preprocess a source file
+Almacen-Maria-0.3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Almacen-Maria-0.3.c.dir\build.make CMakeFiles/Almacen-Maria-0.3.c.dir/Almacen-Maria-0.3.c.i
+.PHONY : Almacen-Maria-0.3.c.i
+
+Almacen-Maria-0.3.s: Almacen-Maria-0.3.c.s
+.PHONY : Almacen-Maria-0.3.s
+
+# target to generate assembly for a file
+Almacen-Maria-0.3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Almacen-Maria-0.3.c.dir\build.make CMakeFiles/Almacen-Maria-0.3.c.dir/Almacen-Maria-0.3.c.s
+.PHONY : Almacen-Maria-0.3.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -274,6 +311,7 @@ help:
 	@echo ... Almacen-Marai-0.1.c
 	@echo ... Almacen-Maria-0.2.1.c
 	@echo ... Almacen-Maria-0.2.c
+	@echo ... Almacen-Maria-0.3.c
 	@echo ... Proyecto-Individual
 	@echo ... Almacen-Marai-0.1.obj
 	@echo ... Almacen-Marai-0.1.i
@@ -284,6 +322,9 @@ help:
 	@echo ... Almacen-Maria-0.2.obj
 	@echo ... Almacen-Maria-0.2.i
 	@echo ... Almacen-Maria-0.2.s
+	@echo ... Almacen-Maria-0.3.obj
+	@echo ... Almacen-Maria-0.3.i
+	@echo ... Almacen-Maria-0.3.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -28,6 +28,27 @@ void imprimirObj(char nombre[][25],int id[],int preorden[],int existencia[],floa
     printf("ID.)Nombre  |\tPrecio  |\tExistencia  |\tPunto de reorden|\n");
     printf("%i.)%s|\t%.2f|\t%i|\t%i|\n",id[x],nombre[x],precio[x],existencia[x],preorden[x]);
 }
+void buscarID(char nombre[][25],int id[],int preorden[],int existencia[],float precio[],int idtemp, int total,int bandera){
+    if(total!=0){
+        for (int i = 0; i < total; ++i) {
+
+            if(idtemp==id[i]){
+                imprimirObj(nombre,id,preorden,existencia,precio,idtemp-1);
+                bandera=1;
+                break;
+
+            } else{
+                bandera=0;
+            }
+        }
+        if(bandera==0){
+            printf("El ID del producto no existe1\n");
+        }
+    } else{
+        printf("El almacen esta vacio\n");
+    }
+
+}
 
 int main() {
     //Variables generales
@@ -37,9 +58,9 @@ int main() {
     //Variable para opt 3
     int idtemp;
     //Variable para opt 4
-    char password[7]; //Yumeko19
+    char password[8];//"Yumeko19";
     password[0]='Y',password[1]='u',password[2]='m',password[3]='e',password[4]='k',password[5]='o',password[6]='1',password[7]='9';
-    char tryPassword[7];
+    char tryPassword[8];
     int bandera,opt2;
 
 
@@ -68,33 +89,29 @@ int main() {
                 printf("-----Buscar producto por ID-----\n");
                 printf("Ingrese el id que dese buscar:");
                 scanf("%i",&idtemp);
-                for (int i = 0; i < total; ++i) {
-                    if(idtemp-1==id[i]){
-                        imprimirObj(nombre,id,preorden,existencia,precio,idtemp-1);
-                        break;
-                    } else{
-                        printf("El id no existe");
-                        break;
-                    }
-                }
+                buscarID(nombre,id,preorden,existencia,precio,idtemp, total,bandera);
+
                 break;
             case 4:
                 printf("-----Remplazos-----\n");
                 printf("Ingrese password:");
                 scanf("%s",&tryPassword);
-                for (int i = 0; i <= 7; ++i) {
+
+                for (int i = 0; i < 8; ++i) {
+                    printf("%c,%c",tryPassword[i],password[i]);
                     if(tryPassword[i]==password[i]){
                         bandera=1;
                     } else{
                         bandera=0;
+                        break;
                     }
                 }
                 if(bandera==0){
                     printf("La password es incorrecta\n");
                 } else{
                     printf("Ingrese el id del producto que desee modificar:");
-                    scanf("%i",&idtemp); //Arreglar lo del ID que no existe
-
+                    scanf("%i",&idtemp);
+                    buscarID(nombre,id,preorden,existencia,precio,idtemp, total,bandera);
                     do {
                         printf("Que opcion deseas modificar:\n1)Nombre\n2)Precio\n3)Existencia\n4)Punto de re-orden\n5)Salir\nIngrese opcion:");
                         scanf("%i",&opt2);

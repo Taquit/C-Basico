@@ -36,7 +36,7 @@ int main() {
     int opt,id[20],preorden[20],existencia[20],total=0;
     float precio[20];
     char nombre[20][25];
-    int idtemp;
+    int idtemp, bandera=0;
 
 
 
@@ -65,13 +65,18 @@ int main() {
                 printf("Ingrese el id que dese buscar:");
                 scanf("%i",&idtemp);
                 for (int i = 0; i < total; ++i) {
-                    if(idtemp-1==id[i]){
+
+                    if(idtemp==id[i]){
                         imprimirObj(nombre,id,preorden,existencia,precio,idtemp-1);
-                        break;
+                        bandera=1;
+
                     } else{
-                        printf("El producto con ese ID no existe\n");
-                        break;
+                        bandera=0;
                     }
+
+                }
+                if(bandera==0){
+                    printf("El ID del producto no existe1\n");
                 }
 
                 break;
