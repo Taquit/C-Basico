@@ -17,4 +17,10 @@ Paginado
     El menu debe ser capas de cancelar el remplazo "5" "No se modifico ningun dato"
     Maria hace un escrito donde menciona los productos perdidos
     Esta opcion debe de modicar la existencia del producto, nombre, precio y punto de re-orden
+    if(tryPassword[i]==password[i]){
+                        bandera=1;
+                    } else{
+                        bandera=0;
+                         break;
+                    }
 5)
