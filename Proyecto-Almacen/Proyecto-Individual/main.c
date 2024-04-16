@@ -58,8 +58,8 @@ int main() {
     //Variable para opt 3
     int idtemp;
     //Variable para opt 4
-    char password[8];//"Yumeko19";
-    password[0]='Y',password[1]='u',password[2]='m',password[3]='e',password[4]='k',password[5]='o',password[6]='1',password[7]='9';
+    char password[8]="Yumeko19";
+    //password[0]='Y',password[1]='u',password[2]='m',password[3]='e',password[4]='k',password[5]='o',password[6]='1',password[7]='9';
     char tryPassword[8];
     int bandera,opt2;
 
@@ -80,10 +80,16 @@ int main() {
                 break;
             case 2:
                 printf("-----Listar----\n");
-                printf("ID.)Nombre  |\tPrecio  |\tExistencia  |\tPunto de reorden|\n");
-                for (int i = 0; i <total ; ++i) {
-                    printf("%i.)%s|\t%.2f|\t%i|\t%i|\n",id[i],nombre[i],precio[i],existencia[i],preorden[i]);
+                if (total!=0){
+                    printf("ID.)Nombre  |\tPrecio  |\tExistencia  |\tPunto de reorden|\n");
+                    for (int i = 0; i <total ; ++i) {
+                        printf("%i.)%s|\t%.2f|\t%i|\t%i|\n",id[i],nombre[i],precio[i],existencia[i],preorden[i]);
+                    }
+                }else{
+                    printf("El almacen esta vacio\n");
                 }
+                
+                
                 break;
             case 3:
                 printf("-----Buscar producto por ID-----\n");
@@ -96,22 +102,20 @@ int main() {
                 printf("-----Remplazos-----\n");
                 printf("Ingrese password:");
                 scanf("%s",&tryPassword);
-
                 for (int i = 0; i < 8; ++i) {
-                    printf("%c,%c",tryPassword[i],password[i]);
-                    if(tryPassword[i]==password[i]){
-                        bandera=1;
-                    } else{
-                        bandera=0;
-                        break;
-                    }
+                    printf("%c\n",tryPassword[i]);
+                    printf("%c\n",password[i]);
+                    
                 }
                 if(bandera==0){
                     printf("La password es incorrecta\n");
                 } else{
-                    printf("Ingrese el id del producto que desee modificar:");
+                    if (total!=0)
+                    {
+                      printf("Ingrese el id del producto que desee modificar:");
                     scanf("%i",&idtemp);
                     buscarID(nombre,id,preorden,existencia,precio,idtemp, total,bandera);
+                    
                     do {
                         printf("Que opcion deseas modificar:\n1)Nombre\n2)Precio\n3)Existencia\n4)Punto de re-orden\n5)Salir\nIngrese opcion:");
                         scanf("%i",&opt2);
@@ -119,12 +123,12 @@ int main() {
                             case 1:
                                 printf("--Modificar nombre--\n");
                                 printf("Anterior:%s\nNuevo:",nombre[idtemp-1]);
-                                scanf("%s",nombre[idtemp-1]);
+                                scanf("%s",&nombre[idtemp-1]);
                                 break;
                             case 2:
                                 printf("--Modificar precio--\n");
                                 printf("Anterior:%s\nNuevo:",precio[idtemp-1]);
-                                scanf("%s",precio[idtemp-1]);
+                                scanf("%s",&precio[idtemp-1]);
                                 break;
                             case 3:
                                 printf("--Modificar Existencia--\n");
@@ -137,8 +141,10 @@ int main() {
                                 printf("Opcion incorrecta");
                                 break;
                         }
-                    } while (opt2!=5);
+                    } while (opt2!=5);  
+                    }       
                 }
+                printf("El almacen esta vacio\n");
                 break;
             case 8:
                 printf("Estas saliendo del progrma...");
