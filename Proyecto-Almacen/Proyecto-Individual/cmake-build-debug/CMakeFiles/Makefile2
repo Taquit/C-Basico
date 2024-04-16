@@ -67,6 +67,7 @@ all: CMakeFiles/Almacen-Marai-0.1.c.dir/all
 all: CMakeFiles/Almacen-Maria-0.2.c.dir/all
 all: CMakeFiles/Almacen-Maria-0.2.1.c.dir/all
 all: CMakeFiles/Almacen-Maria-0.3.c.dir/all
+all: CMakeFiles/Almacen-Maria-0.4.c.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -79,6 +80,7 @@ clean: CMakeFiles/Almacen-Marai-0.1.c.dir/clean
 clean: CMakeFiles/Almacen-Maria-0.2.c.dir/clean
 clean: CMakeFiles/Almacen-Maria-0.2.1.c.dir/clean
 clean: CMakeFiles/Almacen-Maria-0.3.c.dir/clean
+clean: CMakeFiles/Almacen-Maria-0.4.c.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -88,7 +90,7 @@ clean: CMakeFiles/Almacen-Maria-0.3.c.dir/clean
 CMakeFiles/Proyecto-Individual.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto-Individual.dir\build.make CMakeFiles/Proyecto-Individual.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto-Individual.dir\build.make CMakeFiles/Proyecto-Individual.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Desktop\Documents\UPAEP\Software\C-Basico\Proyecto-Almacen\Proyecto-Individual\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Proyecto-Individual"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Desktop\Documents\UPAEP\Software\C-Basico\Proyecto-Almacen\Proyecto-Individual\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target Proyecto-Individual"
 .PHONY : CMakeFiles/Proyecto-Individual.dir/all
 
 # Build rule for subdir invocation for target.
@@ -210,6 +212,32 @@ Almacen-Maria-0.3.c: CMakeFiles/Almacen-Maria-0.3.c.dir/rule
 CMakeFiles/Almacen-Maria-0.3.c.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Almacen-Maria-0.3.c.dir\build.make CMakeFiles/Almacen-Maria-0.3.c.dir/clean
 .PHONY : CMakeFiles/Almacen-Maria-0.3.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Almacen-Maria-0.4.c.dir
+
+# All Build rule for target.
+CMakeFiles/Almacen-Maria-0.4.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Almacen-Maria-0.4.c.dir\build.make CMakeFiles/Almacen-Maria-0.4.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Almacen-Maria-0.4.c.dir\build.make CMakeFiles/Almacen-Maria-0.4.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Desktop\Documents\UPAEP\Software\C-Basico\Proyecto-Almacen\Proyecto-Individual\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Almacen-Maria-0.4.c"
+.PHONY : CMakeFiles/Almacen-Maria-0.4.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Almacen-Maria-0.4.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Desktop\Documents\UPAEP\Software\C-Basico\Proyecto-Almacen\Proyecto-Individual\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Almacen-Maria-0.4.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Desktop\Documents\UPAEP\Software\C-Basico\Proyecto-Almacen\Proyecto-Individual\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Almacen-Maria-0.4.c.dir/rule
+
+# Convenience name for target.
+Almacen-Maria-0.4.c: CMakeFiles/Almacen-Maria-0.4.c.dir/rule
+.PHONY : Almacen-Maria-0.4.c
+
+# clean rule for target.
+CMakeFiles/Almacen-Maria-0.4.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Almacen-Maria-0.4.c.dir\build.make CMakeFiles/Almacen-Maria-0.4.c.dir/clean
+.PHONY : CMakeFiles/Almacen-Maria-0.4.c.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

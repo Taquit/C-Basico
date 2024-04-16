@@ -1,12 +1,14 @@
 //
-// Se guardan los datos en un arreglo-Se crea la funcion altas-Decir que ID le toco al profuctov.2
-//*Lista los productos v.3
+// Created by Desktop on 15/04/2024.
+//
+//V0.4 Funcionamineto del case 4 donde se puede modificar la lista
+
 #include <stdio.h>
 #include <string.h>
 
 void menu(){
     printf("-----Menu principal----");
-    printf("\n1)Altas\n2)Listar\n3)Buscar producto\n4)Remplazos\n5)Opcion5\n.\n.\n8)Salir\n");
+    printf("\n1)Altas\n2)Listar\n3)Buscar producto\n4)Remplazos\n.\n8)Salir\n");
     printf("Ingresa opcion:");
 
 }
@@ -89,8 +91,8 @@ int main() {
                 }else{
                     printf("El almacen esta vacio\n");
                 }
-                
-                
+
+
                 break;
             case 3:
                 printf("-----Buscar producto por ID-----\n");
@@ -103,8 +105,9 @@ int main() {
                 printf("-----Remplazos-----\n");
                 printf("Ingrese password:");
                 int c;
-                while ((c = getchar()) != '\n' && c != EOF); // Limpiar el búfer de entrada
-                fgets(tryPassword, sizeof(tryPassword), stdin);
+                while ((c = getchar()) != '\n' && c != EOF);
+                fgets(tryPassword,sizeof (tryPassword),stdin);
+
                 if (tryPassword[strlen(tryPassword) - 1] == '\n') {
                     tryPassword[strlen(tryPassword) - 1] = '\0';
                 }
@@ -118,40 +121,40 @@ int main() {
                 } else{
                     if (total!=0)
                     {
-                      printf("Ingrese el id del producto que desee modificar:");
-                    scanf("%i",&idtemp);
-                    buscarID(nombre,id,preorden,existencia,precio,idtemp, total,bandera);
-                    
-                    do {
-                        printf("Que opcion deseas modificar:\n1)Nombre\n2)Precio\n3)Existencia\n4)Punto de re-orden\n5)Salir\nIngrese opcion:");
-                        scanf("%i",&opt2);
-                        switch (opt2) {
-                            case 1:
-                                printf("--Modificar nombre--\n");
-                                printf("Anterior:%s\nNuevo:",nombre[idtemp-1]);
-                                scanf("%s",&nombre[idtemp-1]);
-                                break;
-                            case 2:
-                                printf("--Modificar precio--\n");
-                                printf("Anterior:%.2f\nNuevo:",precio[idtemp-1]);
-                                scanf("%f",&precio[idtemp-1]);
-                                break;
-                            case 3:
-                                printf("--Modificar Existencia--\n");
-                                printf("Anterior:%i\nNuevo:",existencia[idtemp-1]);
-                                scanf("%i",&existencia[idtemp-1]);
-                                break;
-                            case 4:
-                                printf("--Punto de re-orden--\n");
-                                printf("Anterior:%i\nNuevo:",preorden[idtemp-1]);
-                                scanf("%i",&preorden[idtemp-1]);
-                            case 5:
-                                printf("Saliendo de la opcion..");
-                            default:
-                                printf("Opcion incorrecta");
-                                break;
-                        }
-                    } while (opt2!=5);  
+                        printf("Ingrese el id del producto que desee modificar:");
+                        scanf("%i",&idtemp);
+                        buscarID(nombre,id,preorden,existencia,precio,idtemp, total,bandera);
+
+                        do {
+                            printf("Que opcion deseas modificar:\n1)Nombre\n2)Precio\n3)Existencia\n4)Punto de re-orden\n5)Salir\nIngrese opcion:");
+                            scanf("%i",&opt2);
+                            switch (opt2) {
+                                case 1:
+                                    printf("--Modificar nombre--\n");
+                                    printf("Anterior:%s\nNuevo:",nombre[idtemp-1]);
+                                    scanf("%s",&nombre[idtemp-1]);
+                                    break;
+                                case 2:
+                                    printf("--Modificar precio--\n");
+                                    printf("Anterior:%.2f\nNuevo:",precio[idtemp-1]);
+                                    scanf("%f",&precio[idtemp-1]);
+                                    break;
+                                case 3:
+                                    printf("--Modificar Existencia--\n");
+                                    printf("Anterior:%i\nNuevo:",existencia[idtemp-1]);
+                                    scanf("%i",&existencia[idtemp-1]);
+                                    break;
+                                case 4:
+                                    printf("--Punto de re-orden--\n");
+                                    printf("Anterior:%i\nNuevo:",preorden[idtemp-1]);
+                                    scanf("%i",&preorden[idtemp-1]);
+                                case 5:
+                                    printf("Saliendo de la opcion..");
+                                default:
+                                    printf("Opcion incorrecta");
+                                    break;
+                            }
+                        } while (opt2!=5);
                     } else{
                         printf("El almacen esta vacio\n");
                     }

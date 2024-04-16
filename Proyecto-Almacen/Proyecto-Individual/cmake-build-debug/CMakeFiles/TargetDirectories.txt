@@ -3,5 +3,6 @@ C:/Users/Desktop/Documents/UPAEP/Software/C-Basico/Proyecto-Almacen/Proyecto-Ind
 C:/Users/Desktop/Documents/UPAEP/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/Almacen-Maria-0.2.c.dir
 C:/Users/Desktop/Documents/UPAEP/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/Almacen-Maria-0.2.1.c.dir
 C:/Users/Desktop/Documents/UPAEP/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/Almacen-Maria-0.3.c.dir
+C:/Users/Desktop/Documents/UPAEP/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/Almacen-Maria-0.4.c.dir
 C:/Users/Desktop/Documents/UPAEP/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Desktop/Documents/UPAEP/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/rebuild_cache.dir
