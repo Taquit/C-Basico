@@ -6,7 +6,7 @@
 
 void menu(){
     printf("-----Menu principal----");
-    printf("\n1)Altas\n2)Listar\n3)Buscar producto\n4)Remplazos\n5)Opcion5\n.\n.\n8)Salir\n");
+    printf("\n1)Altas\n2)Listar\n3)Buscar producto\n4)Remplazos\n5)Entrega de producto\n6)Reabastecer\n.\n8)Salir\n");
     printf("Ingresa opcion:");
 
 }
@@ -63,6 +63,8 @@ int main() {
     char password[]="Yumeko19";
     char tryPassword[MAX_LENGTH];
     int bandera,opt2;
+    //Opcion 5
+    int existemp;
 
 
 
@@ -159,7 +161,41 @@ int main() {
 
                 break;
             case 5:
-                printf("-----Opcion 5-----\n");
+                printf("-----Entrega de producto-----\n");
+                if(total!=0){
+                    printf("Ingrese el ID del producto:");
+                    scanf("%i",&idtemp);
+                    buscarID(nombre,id,preorden,existencia,precio,idtemp,total,bandera);
+                    printf("Ingresa la cantidad que dese entregar:");
+                    scanf("%i",&existemp);
+                    if (existemp<existencia[idtemp-1]){
+                        existencia[idtemp-1]=existencia[idtemp-1]-existemp;
+                        printf("Se restaran %i de %s",existemp,nombre[idtemp-1]);
+
+                    } else{
+                        printf("La cantidad solicitada es mayor a la cantidad de producto en existenica. Desea entregar los que hay en existencia?\n1.)Si\n2.)No\n");
+                        switch (opt2) {
+                            case 1:
+                                existencia[idtemp-1]=existencia[idtemp-1]-existemp;
+                                printf("Se restaran %i de %s.\n El producto se quedo sin existencia!\n",existemp,nombre[idtemp-1]);
+                                break;
+                            case 2:
+                                printf("Saliendo de la opcion 5...\n");
+                                break;
+                            default:
+                                printf("Opcion incorrecta\n");
+                                break;
+                        }
+                    }
+                } else{
+                    printf("El alcamen esta vacio\n");
+                }
+
+                break;
+            case 6:
+                printf("-----Reabastecer-----\n");
+                //Se debe de agregar Maximo y Pedido como vectores, donde Maximo se le puede asiganar al dar de lata un producto (existencia<preoden)
+                //Se debe imprimir ID y cuantos se deben pedir
                 break;
             case 8:
                 printf("Estas saliendo del progrma...");
