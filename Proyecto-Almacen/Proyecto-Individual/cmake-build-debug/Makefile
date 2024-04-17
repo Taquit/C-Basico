@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.3.3\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Desktop\Documents\UPAEP\Software\C-Basico\Proyecto-Almacen\Proyecto-Individual
+CMAKE_SOURCE_DIR = C:\Users\Desktop\Documents\Upaep\Software\C-Basico\Proyecto-Almacen\Proyecto-Individual
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Desktop\Documents\UPAEP\Software\C-Basico\Proyecto-Almacen\Proyecto-Individual\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Desktop\Documents\Upaep\Software\C-Basico\Proyecto-Almacen\Proyecto-Individual\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Desktop\Documents\UPAEP\Software\C-Basico\Proyecto-Almacen\Proyecto-Individual\cmake-build-debug\CMakeFiles C:\Users\Desktop\Documents\UPAEP\Software\C-Basico\Proyecto-Almacen\Proyecto-Individual\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Desktop\Documents\Upaep\Software\C-Basico\Proyecto-Almacen\Proyecto-Individual\cmake-build-debug\CMakeFiles C:\Users\Desktop\Documents\Upaep\Software\C-Basico\Proyecto-Almacen\Proyecto-Individual\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Desktop\Documents\UPAEP\Software\C-Basico\Proyecto-Almacen\Proyecto-Individual\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Desktop\Documents\Upaep\Software\C-Basico\Proyecto-Almacen\Proyecto-Individual\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -192,6 +192,19 @@ Almacen-Maria-0.4.c: cmake_check_build_system
 Almacen-Maria-0.4.c/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Almacen-Maria-0.4.c.dir\build.make CMakeFiles/Almacen-Maria-0.4.c.dir/build
 .PHONY : Almacen-Maria-0.4.c/fast
+
+#=============================================================================
+# Target rules for targets named Almacen-Maria-0.6.c
+
+# Build rule for target.
+Almacen-Maria-0.6.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Almacen-Maria-0.6.c
+.PHONY : Almacen-Maria-0.6.c
+
+# fast build rule for target.
+Almacen-Maria-0.6.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Almacen-Maria-0.6.c.dir\build.make CMakeFiles/Almacen-Maria-0.6.c.dir/build
+.PHONY : Almacen-Maria-0.6.c/fast
 
 Almacen-Marai-0.1.obj: Almacen-Marai-0.1.c.obj
 .PHONY : Almacen-Marai-0.1.obj
@@ -313,6 +326,30 @@ Almacen-Maria-0.4.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Almacen-Maria-0.4.c.dir\build.make CMakeFiles/Almacen-Maria-0.4.c.dir/Almacen-Maria-0.4.c.s
 .PHONY : Almacen-Maria-0.4.c.s
 
+Almacen-Maria-0.6.obj: Almacen-Maria-0.6.c.obj
+.PHONY : Almacen-Maria-0.6.obj
+
+# target to build an object file
+Almacen-Maria-0.6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Almacen-Maria-0.6.c.dir\build.make CMakeFiles/Almacen-Maria-0.6.c.dir/Almacen-Maria-0.6.c.obj
+.PHONY : Almacen-Maria-0.6.c.obj
+
+Almacen-Maria-0.6.i: Almacen-Maria-0.6.c.i
+.PHONY : Almacen-Maria-0.6.i
+
+# target to preprocess a source file
+Almacen-Maria-0.6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Almacen-Maria-0.6.c.dir\build.make CMakeFiles/Almacen-Maria-0.6.c.dir/Almacen-Maria-0.6.c.i
+.PHONY : Almacen-Maria-0.6.c.i
+
+Almacen-Maria-0.6.s: Almacen-Maria-0.6.c.s
+.PHONY : Almacen-Maria-0.6.s
+
+# target to generate assembly for a file
+Almacen-Maria-0.6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Almacen-Maria-0.6.c.dir\build.make CMakeFiles/Almacen-Maria-0.6.c.dir/Almacen-Maria-0.6.c.s
+.PHONY : Almacen-Maria-0.6.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -350,6 +387,7 @@ help:
 	@echo ... Almacen-Maria-0.2.c
 	@echo ... Almacen-Maria-0.3.c
 	@echo ... Almacen-Maria-0.4.c
+	@echo ... Almacen-Maria-0.6.c
 	@echo ... Proyecto-Individual
 	@echo ... Almacen-Marai-0.1.obj
 	@echo ... Almacen-Marai-0.1.i
@@ -366,6 +404,9 @@ help:
 	@echo ... Almacen-Maria-0.4.obj
 	@echo ... Almacen-Maria-0.4.i
 	@echo ... Almacen-Maria-0.4.s
+	@echo ... Almacen-Maria-0.6.obj
+	@echo ... Almacen-Maria-0.6.i
+	@echo ... Almacen-Maria-0.6.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

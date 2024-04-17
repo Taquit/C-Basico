@@ -1,8 +1,9 @@
-C:/Users/Ruben/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/Proyecto-Individual.dir
-C:/Users/Ruben/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/Almacen-Marai-0.1.c.dir
-C:/Users/Ruben/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/Almacen-Maria-0.2.c.dir
-C:/Users/Ruben/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/Almacen-Maria-0.2.1.c.dir
-C:/Users/Ruben/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/Almacen-Maria-0.3.c.dir
-C:/Users/Ruben/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/Almacen-Maria-0.4.c.dir
-C:/Users/Ruben/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Ruben/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Desktop/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/Proyecto-Individual.dir
+C:/Users/Desktop/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/Almacen-Marai-0.1.c.dir
+C:/Users/Desktop/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/Almacen-Maria-0.2.c.dir
+C:/Users/Desktop/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/Almacen-Maria-0.2.1.c.dir
+C:/Users/Desktop/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/Almacen-Maria-0.3.c.dir
+C:/Users/Desktop/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/Almacen-Maria-0.4.c.dir
+C:/Users/Desktop/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/Almacen-Maria-0.6.c.dir
+C:/Users/Desktop/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Desktop/Documents/Upaep/Software/C-Basico/Proyecto-Almacen/Proyecto-Individual/cmake-build-debug/CMakeFiles/rebuild_cache.dir
