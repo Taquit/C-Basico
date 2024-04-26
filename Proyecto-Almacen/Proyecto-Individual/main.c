@@ -33,6 +33,7 @@ void buscarID(char nombre[][25],int id[],int preorden[],int existencia[],float p
         for (int i = 0; i < total; ++i) {
 
             if(idtemp==id[i]){
+
                 imprimirObj(nombre,id,preorden,existencia,precio,idtemp-1);
                 bandera=1;
                 break;
@@ -82,9 +83,10 @@ int main() {
             case 2:
                 printf("-----Listar----\n");
                 if (total!=0){
-                    printf("ID.)Nombre  |\tPrecio  |\tExistencia  |\tPunto de reorden|\n");
+                    printf("%-5s | %-25s | %-10s | %-12s | %-15s |\n", "ID", "Nombre", "Precio", "Existencia", "Punto de reorden");
                     for (int i = 0; i <total ; ++i) {
-                        printf("%i.)%s|\t%.2f|\t%i|\t%i|\n",id[i],nombre[i],precio[i],existencia[i],preorden[i]);
+
+                        printf("%-5i | %-25s | %-10.2f | %-12i | %-15i |\n", id[i], nombre[i], precio[i], existencia[i], preorden[i]);
                     }
                 }else{
                     printf("El almacen esta vacio\n");
@@ -170,15 +172,16 @@ int main() {
                     buscarID(nombre,id,preorden,existencia,precio,idtemp,total,bandera);
                     printf("Ingresa la cantidad que dese entregar:");
                     scanf("%i",&existemp);
-                    if (existemp<existencia[idtemp-1]){
+                    if (existemp<=existencia[idtemp-1]){
                         existencia[idtemp-1]=existencia[idtemp-1]-existemp;
                         printf("Se restaran %i de %s\n",existemp,nombre[idtemp-1]);
 
                     } else{
-                        printf("La cantidad solicitada es mayor a la cantidad de producto en existenica. Desea entregar los que hay en existencia?\n1.)Si\n2.)No\n");
+                        printf("La cantidad solicitada es mayor a la cantidad de producto en existenica. Desea entregar los que hay en existencia?\n1.)Si\n2.)No\nEliga opcion:");
+                        scanf("%i",&opt2);
                         switch (opt2) {
                             case 1:
-                                existencia[idtemp-1]=existencia[idtemp-1]-existemp;
+                                existencia[idtemp-1]=0;
                                 printf("Se restaran %i de %s.\n El producto se quedo sin existencia!\n",existemp,nombre[idtemp-1]);
                                 break;
                             case 2:
