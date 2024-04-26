@@ -24,9 +24,9 @@ void altas(char nombre[][25],int id[],int preorden[],int existencia[],float prec
     printf("Alta exitosa!\n");
 
 }
-void imprimirObj(char nombre[][25],int id[],int preorden[],int existencia[],float precio[],int x){
-    printf("ID.)Nombre  |\tPrecio  |\tExistencia  |\tPunto de reorden|\n");
-    printf("%i.)%s|\t%.2f|\t%i|\t%i|\n",id[x],nombre[x],precio[x],existencia[x],preorden[x]);
+void imprimirObj(char nombre[][25], int id[], int preorden[], int existencia[], float precio[], int x) {
+    printf("%-5s | %-25s | %-10s | %-12s | %-15s |\n", "ID", "Nombre", "Precio", "Existencia", "Punto de reorden");
+    printf("%-5i | %-25s | %-10.2f | %-12i | %-15i |\n", id[x], nombre[x], precio[x], existencia[x], preorden[x]);
 }
 void buscarID(char nombre[][25],int id[],int preorden[],int existencia[],float precio[],int idtemp, int total,int bandera){
     if(total!=0){
@@ -221,6 +221,23 @@ int main() {
                 break;
             case 7:
                 printf("-----Bajas-----\n");
+                printf("Dame el ID del elemento a dar de baja:");
+                scanf("%i",&idtemp);
+                buscarID(nombre,id,preorden,existencia,precio,idtemp,total,bandera);
+                for (int i = 0; i < total; ++i) {
+                    if(idtemp ==id[i]){
+                        for (int j = i; j <total ; ++j) {
+                            id[j]=id[j+1];
+                            strcpy(nombre[j],nombre[j+1]);
+                            preorden[j]=preorden[j+1];
+                            existencia[j]=existencia[j+1];
+                            precio[j]=precio[j+1];
+                            maximo[j]=maximo[j+1];
+                            total--;
+                            printf("Producto borrado con exito\n");
+                        }
+                    }
+                }
                 break;
             case 8:
                 printf("Estas saliendo del progrma...");
