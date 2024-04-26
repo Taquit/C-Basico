@@ -4,7 +4,7 @@
 
 void menu(){
     printf("-----Menu principal----");
-    printf("\n1)Altas\n2)Listar\n3)Buscar producto\n4)Remplazos\n5)Entrega de producto\n6)Reabastecer\n7)7\n8)Salir\n");
+    printf("\n1)Altas\n2)Listar\n3)Buscar producto\n4)Remplazos\n5)Entrega de producto\n6)Reabastecer\n7)Bajas\n8)Salir\n");
     printf("Ingresa opcion:");
 
 }
@@ -196,19 +196,31 @@ int main() {
                 break;
             case 6:
                 printf("-----Reabastecer-----\n");
-                printf("ID\t|Pedido\n");
+                float monto=0;
                 for (int i = 0; i < total; ++i) {
                     if(existencia[i]<preorden[i]){
                         pedido[i]=maximo[i]-existencia[i];
-                        existencia[i]=pedido[i]+existencia[i];
+
+
                     } else{
                         pedido[i]=0;
                     }
-                    printf("%i)\t|%i\n",id[i],pedido[i]);
+                    printf("ID\t|Pedido\n");
+                    printf("#%i\t|%i\n",id[i],pedido[i]);
+                    if(pedido[i]!=0){
+                        printf("\nDesea reabastecer los producto?\n1)Si\n2)No\n");
+                        scanf("%i",&bandera);
+                        if(bandera==1){
+                            existencia[i]=pedido[i]+existencia[i];
+                            monto = monto+ pedido[i] * precio[i];
+                        }
+                    }
+
                 }
+                printf("El monto a pagar fue de %.2f\n",monto);
                 break;
             case 7:
-                printf("-----7-----\n");
+                printf("-----Bajas-----\n");
                 break;
             case 8:
                 printf("Estas saliendo del progrma...");

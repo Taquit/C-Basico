@@ -1,11 +1,19 @@
 # ninja log v5
-4	166	7346961809108980	CMakeFiles/Proyecto-Individual.dir/main.c.obj	8615eeca615826c2
-167	342	7346961810780235	Proyecto-Individual.exe	7f24e27c2cecca08
+5	446	7352628672136185	CMakeFiles/Proyecto-Individual.dir/main.c.obj	8615eeca615826c2
+447	713	7352628674746931	Proyecto-Individual.exe	7f24e27c2cecca08
 6	189	7346775960199318	CMakeFiles/Almacen-Maria-0.3.c.dir/Almacen-Maria-0.3.c.obj	476470499ac18fd5
 190	396	7346775962221108	Almacen-Maria-0.3.c.exe	7665c137ee892684
-5	241	7350911805227704	CMakeFiles/Proyecto-Individual.dir/main.c.obj	8615eeca615826c2
-242	543	7350911808196315	Proyecto-Individual.exe	7f24e27c2cecca08
-4	192	7350913713445476	CMakeFiles/Proyecto-Individual.dir/main.c.obj	8615eeca615826c2
-193	376	7350913715206137	Proyecto-Individual.exe	7f24e27c2cecca08
-4	196	7350914361998806	CMakeFiles/Proyecto-Individual.dir/main.c.obj	8615eeca615826c2
-197	382	7350914363777512	Proyecto-Individual.exe	7f24e27c2cecca08
+5	576	7356958549240412	CMakeFiles/Proyecto-Individual.dir/main.c.obj	8615eeca615826c2
+578	1088	7356958554324005	Proyecto-Individual.exe	7f24e27c2cecca08
+4	234	7356959873352683	CMakeFiles/Proyecto-Individual.dir/main.c.obj	8615eeca615826c2
+235	415	7356959875080394	Proyecto-Individual.exe	7f24e27c2cecca08
+5	194	7356961130557042	CMakeFiles/Proyecto-Individual.dir/main.c.obj	8615eeca615826c2
+195	389	7356961132408761	Proyecto-Individual.exe	7f24e27c2cecca08
+6	225	7356962520934779	CMakeFiles/Proyecto-Individual.dir/main.c.obj	8615eeca615826c2
+227	439	7356962522982075	Proyecto-Individual.exe	7f24e27c2cecca08
+5	205	7356964880707259	CMakeFiles/Proyecto-Individual.dir/main.c.obj	8615eeca615826c2
+206	405	7356964882600208	Proyecto-Individual.exe	7f24e27c2cecca08
+5	254	7356967545481382	CMakeFiles/Proyecto-Individual.dir/main.c.obj	8615eeca615826c2
+255	439	7356967547253138	Proyecto-Individual.exe	7f24e27c2cecca08
+5	204	7356982756339291	CMakeFiles/Proyecto-Individual.dir/main.c.obj	8615eeca615826c2
+204	370	7356982757928731	Proyecto-Individual.exe	7f24e27c2cecca08
