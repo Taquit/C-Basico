@@ -91,8 +91,8 @@ int main() {
                 }else{
                     printf("El almacen esta vacio\n");
                 }
-                
-                
+
+
                 break;
             case 3:
                 printf("-----Buscar producto por ID-----\n");
@@ -120,44 +120,44 @@ int main() {
                 } else{
                     if (total!=0)
                     {
-                      printf("Ingrese el id del producto que desee modificar:");
-                    scanf("%i",&idtemp);
-                    buscarID(nombre,id,preorden,existencia,precio,idtemp, total,bandera);
-                    
-                    do {
-                        printf("Que opcion deseas modificar:\n1)Nombre\n2)Precio\n3)Existencia\n4)Punto de re-orden\n5)Salir\nIngrese opcion:");
-                        scanf("%i",&opt2);
-                        switch (opt2) {
-                            case 1:
-                                printf("--Modificar nombre--\n");
-                                printf("Anterior:%s\nNuevo:",nombre[idtemp-1]);
-                                scanf("%s",&nombre[idtemp-1]);
-                                break;
-                            case 2:
-                                printf("--Modificar precio--\n");
-                                printf("Anterior:%.2f\nNuevo:",precio[idtemp-1]);
-                                scanf("%f",&precio[idtemp-1]);
-                                break;
-                            case 3:
-                                printf("--Modificar Existencia--\n");
-                                printf("Anterior:%i\nNuevo:",existencia[idtemp-1]);
-                                scanf("%i",&existencia[idtemp-1]);
-                                break;
-                            case 4:
-                                printf("--Punto de re-orden--\n");
-                                printf("Anterior:%i\nNuevo:",preorden[idtemp-1]);
-                                scanf("%i",&preorden[idtemp-1]);
-                            case 5:
-                                printf("--Maximo de producto--\n");
-                                printf("Anterior:%i\nNuevo:",maximo[idtemp-1]);
-                                scanf("%i",&maximo[idtemp-1]);
-                            case 6:
-                                printf("Saliendo de la opcion..");
-                            default:
-                                printf("Opcion incorrecta");
-                                break;
-                        }
-                    } while (opt2!=6);
+                        printf("Ingrese el id del producto que desee modificar:");
+                        scanf("%i",&idtemp);
+                        buscarID(nombre,id,preorden,existencia,precio,idtemp, total,bandera);
+
+                        do {
+                            printf("Que opcion deseas modificar:\n1)Nombre\n2)Precio\n3)Existencia\n4)Punto de re-orden\n5)Maximo\n6)Saliendo\nIngrese opcion:");
+                            scanf("%i",&opt2);
+                            switch (opt2) {
+                                case 1:
+                                    printf("--Modificar nombre--\n");
+                                    printf("Anterior:%s\nNuevo:",nombre[idtemp-1]);
+                                    scanf("%s",&nombre[idtemp-1]);
+                                    break;
+                                case 2:
+                                    printf("--Modificar precio--\n");
+                                    printf("Anterior:%.2f\nNuevo:",precio[idtemp-1]);
+                                    scanf("%f",&precio[idtemp-1]);
+                                    break;
+                                case 3:
+                                    printf("--Modificar Existencia--\n");
+                                    printf("Anterior:%i\nNuevo:",existencia[idtemp-1]);
+                                    scanf("%i",&existencia[idtemp-1]);
+                                    break;
+                                case 4:
+                                    printf("--Punto de re-orden--\n");
+                                    printf("Anterior:%i\nNuevo:",preorden[idtemp-1]);
+                                    scanf("%i",&preorden[idtemp-1]);
+                                case 5:
+                                    printf("--Maximo de producto--\n");
+                                    printf("Anterior:%i\nNuevo:",maximo[idtemp-1]);
+                                    scanf("%i",&maximo[idtemp-1]);
+                                case 6:
+                                    printf("Saliendo de la opcion..");
+                                default:
+                                    printf("Opcion incorrecta");
+                                    break;
+                            }
+                        } while (opt2!=6);
                     } else{
                         printf("El almacen esta vacio\n");
                     }
@@ -182,7 +182,7 @@ int main() {
                         switch (opt2) {
                             case 1:
                                 existencia[idtemp-1]=0;
-                                printf("Se restaran %i de %s.\n El producto se quedo sin existencia!\n",existemp,nombre[idtemp-1]);
+                                printf("Se restaran %i de %s.\n El producto se quedo sin existencia!\n",existencia[idtemp-1],nombre[idtemp-1]);
                                 break;
                             case 2:
                                 printf("Saliendo de la opcion 5...\n");
