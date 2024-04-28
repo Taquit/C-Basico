@@ -88,15 +88,24 @@ int main() {
                 break;
             case 2:
                 printf("-----Listar----\n");
-                if (total!=0){
+                if (total != 0) {
                     printf("%-5s | %-25s | %-10s | %-12s | %-15s |\n", "ID", "Nombre", "Precio", "Existencia", "Punto de reorden");
-                    for (int i = 0; i <total ; ++i) {
+                    for (int i = 0; i < total; i += 10) {
+                        int end = (i + 10 < total) ? i + 10 : total;
+                        for (int j = i; j < end; j++) {
+                            printf("%-5i | %-25s | %-10.2f | %-12i | %-15i |\n", id[j], nombre[j], precio[j], existencia[j], preorden[j]);
+                        }
+                        if (end < total) {
+                            printf("Presione Enter para ver mas productos...\n");
+                            fflush(stdin);
+                            while (getchar() != '\n'); // Espera a que el usuario presione Enter
+                        }
 
-                        printf("%-5i | %-25s | %-10.2f | %-12i | %-15i |\n", id[i], nombre[i], precio[i], existencia[i], preorden[i]);
                     }
-                }else{
+                } else {
                     printf("El almacen esta vacio\n");
                 }
+                break;
 
 
                 break;
