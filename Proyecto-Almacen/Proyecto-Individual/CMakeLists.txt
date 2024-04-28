@@ -11,4 +11,5 @@ add_executable(Almacen-Maria-0.2.1.c Almacen-Maria-0.2.1.c)
 add_executable(Almacen-Maria-0.3.c Almacen-Maria-0.3.c)
 add_executable(Almacen-Maria-0.4.c Almacen-Maria-0.4.c)
 add_executable(Almacen-Maria-0.6.c Almacen-Maria-0.6.c)
-add_executable(SistemaFrenos.c SistemaFrenos.c)
+add_executable(Almacen-Maria-1.0.c Almacen-Maria-1.0.c )
+

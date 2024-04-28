@@ -135,14 +135,14 @@ int main() {
                             scanf("%i",&opt2);
                             switch (opt2) {
                                 case 1:
-
                                     printf("--Modificar nombre--\n");
-                                    printf("Anterior: %s\nNuevo: ", nombre[idtemp - 1]);
-                                    fflush(stdin);
-                                    fgets(nombre[idtemp - 1], sizeof(nombre[idtemp - 1]), stdin);
-                                    if (nombre[idtemp - 1][strlen(nombre[idtemp - 1]) - 1] == '\n') { // Limpiar el último caracter ingresado
-                                        nombre[idtemp - 1][strlen(nombre[idtemp - 1]) - 1] = '\0';
+                                    printf("Anterior:%s\nNuevo:",nombre[idtemp-1]);
+                                    fflush(stdin); // Limpiar el búfer de entrada
+                                    fgets(nombre[idtemp-1], sizeof(nombre[idtemp-1]), stdin);
+                                    if (nombre[idtemp-1][strlen(nombre[idtemp-1]) - 1] == '\n') { //Limpiar el ultimo caracter ingresado
+                                        nombre[idtemp-1][strlen(nombre[idtemp-1]) - 1] = '\0';
                                     }
+
                                     break;
                                 case 2:
                                     printf("--Modificar precio--\n");
